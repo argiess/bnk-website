@@ -19,7 +19,8 @@
 .about-section .div{
     display: flex;
     gap: 6rem;
-    margin-bottom: 9.9rem;
+    padding: 6rem 0;
+    /* margin-bottom: 9.9rem; */
 }
 .about-section .div:last-child{
     margin-bottom: 0;
@@ -66,6 +67,24 @@
 }
 .about-section .div .about-img3{
     height: 400px;
+}
+
+.about-section .vip{
+    width: 100%;
+    padding: 2rem;
+    background: #fff;
+    color: #222;
+    text-align: center;
+    border-radius: 5px;
+}
+.about-section .vip p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.about-section .vip a{
+    color: darkgoldenrod;
+    text-decoration: underline;
 }
 
 /* ABOUT SECTION MEDIA 800PX */
