@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-
-video{
-    max-width: 100%;
-    width: 100%;
-    height: 80vh;
-}
-
 .coldest-game{
     width: 100%;
     padding: 4rem 2rem 10rem;
@@ -49,6 +42,7 @@ video{
     color: #222;
 }
 
+/* MEDIA */
 @media (max-width: 500px) {
     .coldest-game{
         background-position: left;
